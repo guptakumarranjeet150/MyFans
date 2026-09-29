@@ -14,8 +14,6 @@ contract/.env.deployed*
 contract/.stellar/
 
 # Environment
-.env
-.env.*
 !.env.example
 !.env.dev.example
 # Deploy output template is safe to track; real deploy outputs are ignored above.
@@ -47,7 +45,6 @@ out/
 
 # IDE
 .idea/
-.vscode/
 *.swp
 *.swo
 
@@ -73,3 +70,4 @@ contract/wasm-size-report.txt
 # Local outputs from ops scripts (docs/POSTGRES_BACKUP_RESTORE.md, docs/E2E_TESTNET_PATH.md)
 /backups/
 e2e-evidence/
+config.bat
